@@ -173,7 +173,24 @@ def sell():
 def use_item():
     pass
 def drop_item():
-    pass
+    available_items = []
+
+    for item, amount in inventory.items():
+        if amount > 0:
+            print(f'{item}: {amount}')
+            available_items.append(item)
+
+    if not available_items:
+        print('You have nothing to drop adventurer.')
+        return
+
+    item_choice = input('What do you want to get rif of? ').lower()
+
+    if item_choice in inventory and inventory[item_choice] > 0:
+        inventory[item_choice] -= 1
+        print(f'You dropped one "{item_choice}."')
+    else:
+        print("You don't have that item adventurer.")
 def rest():
     print(f'Sweet dreams {player["name"]}.')
     time.sleep(2)
