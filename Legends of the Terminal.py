@@ -52,7 +52,8 @@ bosses = [
     {'name': 'samurai', "HP": 300, "ATK": 25},
     {'name': 'samurai leader', "HP": 500, "ATK": 30},
     {'name': 'sherif', "HP": 750, "ATK": 50},
-    {'name': 'Aroura The Dragon 🐉', "HP": 1000, "ATK": 100}]
+    {'name': 'Aroura The Dragon 🐉', "HP": 1000, "ATK": 100}
+]
 materials = ['slime balls',
              'green crystals',
              'ancient bones',
