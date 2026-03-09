@@ -175,7 +175,11 @@ def use_item():
 def drop_item():
     pass
 def rest():
-    pass
+    print(f'Sweet dreams {player["name"]}.')
+    time.sleep(2)
+    print('')
+    print('Health + 2')
+    heal(2)
 def quit_game():
     print('')
     print('Goodbye adventurer.')
