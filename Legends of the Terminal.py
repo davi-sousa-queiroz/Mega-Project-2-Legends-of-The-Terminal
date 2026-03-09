@@ -170,8 +170,6 @@ def shop():
 def sell():
     pass
 # ------------ ACTIONS -------------
-def use_item():
-    pass
 def drop_item():
     available_items = []
 
