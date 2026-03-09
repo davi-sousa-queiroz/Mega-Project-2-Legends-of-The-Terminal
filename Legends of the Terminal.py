@@ -176,6 +176,13 @@ def quit_game():
     print('Goodbye adventurer.')
     time.sleep(1)
     print('')
+def game_over():
+    global player, inventory
+    print('GAME OVER!')
+    time.sleep(1)
+    print('')
+    for keys, value in player.items():
+        print(f'{keys}: {value}')
 # ---------------------------   L E G E N D S   O F   T H E   T E R M I N A L   ---------------------------------
 def main():
         welcome()
