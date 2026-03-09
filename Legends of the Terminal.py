@@ -173,6 +173,7 @@ def drop_item():
 def rest():
     pass
 def quit_game():
+    print('')
     print('Goodbye adventurer.')
     time.sleep(1)
     print('')
