@@ -23,7 +23,7 @@ inventory = {
              'Sacred pistols': 0,
              'dragons breath': 0,
              'toy cars': 0,
-             'wooden sword': 0,
+             'wooden swords': 0,
              'fashionable clothes': 0,
              'chests': 0,
              'diamonds': 0,
@@ -114,7 +114,7 @@ def welcome():
     time.sleep(6.5)
     print('')
     print('Explore the land, defeat enemies,')
-    print('collects materials, and grow stronger.')
+    print('collect materials, and grow stronger.')
     time.sleep(4.5)
     print('')
     print('Survive the world, master the battle.')
@@ -138,3 +138,99 @@ def menu():
     global main_menu
     for option in main_menu:
         print(option)
+# ------ EXPLORATION SYSTEM --------
+def explore():
+    pass
+# ------------ COMBAT --------------
+def enemy_encounter():
+    pass
+def fight_boss():
+    pass
+# ------------ ENEMIES -------------
+def slime():
+    pass
+def goblin():
+    pass
+def skeleton():
+    pass
+def snake():
+    pass
+def spider():
+    pass
+def bear():
+    pass
+def bandit():
+    pass
+def bandit_leader():
+    pass
+def soldier():
+    pass
+def soldier_leader():
+    pass
+# Bosses
+def samurai():
+    pass
+def samurai_leader():
+    pass
+def sherif():
+    pass
+def aroura_the_dragon():
+    pass
+# --------- TREASURE SYSTEM ----------
+def find_treasure():
+    pass
+def toy_cars():
+    pass
+def wooden_swords():
+    pass
+def fashionable_clothes():
+    pass
+def chests():
+    pass
+def diamonds():
+    pass
+def crowns():
+    pass
+def golden_necklaces():
+    pass
+def royal_armor():
+    pass
+def ancient_relics():
+    pass
+def dragon_eggs():
+    pass
+def phoenix_feather():
+    pass
+def ancient_crowns():
+    pass
+def dragon_hearts():
+    pass
+def celestial_crystals():
+    pass
+# ----------- UPGRADES -------------
+def upgrade_characters():
+    pass
+# ------ INVENTORY AND STATS -------
+def show_stats():
+    pass
+def show_inventory():
+    pass
+# --------- SHOP AND SELL ----------
+def shop():
+    pass
+def sell():
+    pass
+# ------------ ACTIONS -------------
+def use_item():
+    pass
+def drop_item():
+    pass
+def rest():
+    pass
+def quit_game():
+    pass
+# ---------------------------   L E G E N D S   O F   T H E   T E R M I N A L   ---------------------------------
+def main():
+    pass
+if __name__ == '__main__':
+    main()
