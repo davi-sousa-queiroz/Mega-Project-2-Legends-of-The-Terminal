@@ -145,35 +145,7 @@ def enemy_encounter():
     pass
 def fight_boss():
     pass
-# ------------ ENEMIES -------------
-def slime():
-    pass
-def goblin():
-    pass
-def skeleton():
-    pass
-def snake():
-    pass
-def spider():
-    pass
-def bear():
-    pass
-def bandit():
-    pass
-def bandit_leader():
-    pass
-def soldier():
-    pass
-def soldier_leader():
-    pass
-# Bosses
-def samurai():
-    pass
-def samurai_leader():
-    pass
-def sherif():
-    pass
-def aroura_the_dragon():
+def combat():
     pass
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
