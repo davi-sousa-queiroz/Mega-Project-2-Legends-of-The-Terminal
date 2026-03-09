@@ -163,7 +163,6 @@ def show_inventory():
     pass
 def heal(amount):
     player['HP'] = min(player['HP'] + amount, player["MAX_HP"])
-
 # --------- SHOP AND SELL ----------
 def shop():
     pass
