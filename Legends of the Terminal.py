@@ -6,7 +6,8 @@ game_title = 'LEGENDS OF THE TERMINAL'
 player = {"name": "Hero1234",
           'HP': 100,
           'ATK': 10,
-          'Aether': 0}
+          'Aether': 0,
+          'MAX_HP': 100}
 inventory = {
              'slime balls': 0,
              'green crystals': 0,
