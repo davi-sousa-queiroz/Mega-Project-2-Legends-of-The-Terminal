@@ -231,7 +231,7 @@ def main():
             elif choice == '8':
                 show_stats()
             elif choice == '9':
-                use_item()
+                continue
             elif choice == '10':
                 drop_item()
             elif choice == 'q':
