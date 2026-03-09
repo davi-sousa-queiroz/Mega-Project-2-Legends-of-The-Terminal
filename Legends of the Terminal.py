@@ -99,7 +99,6 @@ main_menu = ["1. Explore 🗺️",
 # --------------------- F U N C T I O N S ------------------------
 # ---- INTRO AND MENU SYSTEM ------
 def welcome():
-    global player, game_title
     print('=======================')
     print(game_title)
     print('=======================')
