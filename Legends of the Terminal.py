@@ -150,34 +150,6 @@ def combat():
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
     pass
-def toy_cars():
-    pass
-def wooden_swords():
-    pass
-def fashionable_clothes():
-    pass
-def chests():
-    pass
-def diamonds():
-    pass
-def crowns():
-    pass
-def golden_necklaces():
-    pass
-def royal_armor():
-    pass
-def ancient_relics():
-    pass
-def dragon_eggs():
-    pass
-def phoenix_feather():
-    pass
-def ancient_crowns():
-    pass
-def dragon_hearts():
-    pass
-def celestial_crystals():
-    pass
 # ----------- UPGRADES -------------
 def upgrade_characters():
     pass
