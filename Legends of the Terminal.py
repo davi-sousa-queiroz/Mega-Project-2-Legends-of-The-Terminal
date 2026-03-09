@@ -97,7 +97,6 @@ main_menu = ["1. Explore 🗺️",
              '10. Drop item 🫳',
              'q. Quit 💨']
 # --------------------- F U N C T I O N S ------------------------
-
 # ---- INTRO AND MENU SYSTEM ------
 def welcome():
     global player, game_title
