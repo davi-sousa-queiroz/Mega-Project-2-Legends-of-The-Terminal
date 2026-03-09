@@ -1,9 +1,7 @@
 # ---------------------- I M P O R T S -------------------------
 import random
 import time
-
-# --------- GAME VARIABLES -----------
-
+# ---------------  G A M E   V A R I A B L E S  -----------------
 game_title = 'LEGENDS OF THE TERMINAL'
 player = {"name": "Hero1234",
           'HP': 100,
