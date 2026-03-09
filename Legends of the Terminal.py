@@ -96,7 +96,6 @@ main_menu = ["1. Explore 🗺️",
              '9. Use Item 🫴',
              '10. Drop item 🫳',
              'q. Quit 💨']
-
 # --------------------- F U N C T I O N S ------------------------
 
 # ---- INTRO AND MENU SYSTEM ------
