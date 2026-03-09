@@ -88,17 +88,17 @@ characters = {
     "Mage": {"HP": 50, "ATK": 30},
     "Archer": {"HP": 25, "ATK": 60},
 }
-main_menu = ["1. Explore",
-             "2. Fight Boss",
-             "3. Inventory",
-             '4. Upgrade',
-             "5. Shop",
-             "6. Sell",
-             '7. Rest',
-             '8. Show Stats',
-             '9. Use Item',
-             '10. Drop item',
-             'q. Quit']
+main_menu = ["1. Explore 🗺️",
+             "2. Fight Boss 🐉⚔️",
+             "3. Inventory 🎒",
+             '4. Upgrade ⬆️',
+             "5. Shop 💰",
+             "6. Sell 🤑",
+             '7. Rest 😴',
+             '8. Show Stats 📊',
+             '9. Use Item 🫴',
+             '10. Drop item 🫳',
+             'q. Quit 💨']
 
 # --------------------- F U N C T I O N S ------------------------
 
