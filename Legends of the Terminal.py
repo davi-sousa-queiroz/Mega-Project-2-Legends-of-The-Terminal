@@ -96,7 +96,7 @@ main_menu = ["1. Explore 🗺️",
              "6. Sell 🤑",
              '7. Rest 😴',
              '8. Show Stats 📊',
-             '9. Use Item 🫴',
+             '9. (coming soon)',
              '10. Drop item 🫳',
              'q. Quit 💨']
 # --------------------- F U N C T I O N S ------------------------
