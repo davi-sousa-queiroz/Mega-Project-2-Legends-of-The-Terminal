@@ -47,7 +47,8 @@ enemies = [
     {'name': 'bandit', "HP": 90, "ATK": 30},
     {'name': 'bandit leader', "HP": 100, "ATK": 40},
     {'name': 'soldier', "HP": 110, "ATK": 50},
-    {'name': 'soldier leader', "HP": 120, "ATK": 60},
+    {'name': 'soldier leader', "HP": 120, "ATK": 60},]
+bosses = [
     {'name': 'samurai', "HP": 300, "ATK": 25},
     {'name': 'samurai leader', "HP": 500, "ATK": 30},
     {'name': 'sherif', "HP": 750, "ATK": 50},
