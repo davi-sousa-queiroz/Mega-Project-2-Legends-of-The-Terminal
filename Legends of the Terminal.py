@@ -213,6 +213,7 @@ def main():
                 drop_item()
             elif choice == 'q':
                 quit_game()
+                game_over()
                 break
             else:
                 print('That\'s not in the menu adventurer.')
