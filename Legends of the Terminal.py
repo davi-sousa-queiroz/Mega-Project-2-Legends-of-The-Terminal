@@ -173,7 +173,9 @@ def drop_item():
 def rest():
     pass
 def quit_game():
-    pass
+    print('Goodbye adventurer.')
+    time.sleep(1)
+    print('')
 # ---------------------------   L E G E N D S   O F   T H E   T E R M I N A L   ---------------------------------
 def main():
         welcome()
