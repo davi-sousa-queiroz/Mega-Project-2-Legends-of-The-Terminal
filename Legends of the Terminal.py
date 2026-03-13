@@ -99,6 +99,21 @@ main_menu = ["1. Explore 🗺️",
              '9. (coming soon)',
              '10. Drop item 🫳',
              'q. Quit 💨']
+item_prices = {
+    'toy cars' : 5,
+    'wooden swords' : 20,
+    'fashionable clothes' : 50,
+    'chests' : 100,
+    'diamonds' : 500,
+    'crowns' : 1000,
+    'golden necklaces' : 2500,
+    'royal armor' : 5000,
+    'ancient relics' : 10000,
+    'dragon eggs': 25000,
+    'phoenix feather' : 50000,
+    'dragon hearts' : 100000,
+    'celestial crystals' : 1000000
+}
 # --------------------- F U N C T I O N S ------------------------
 # ---- INTRO AND MENU SYSTEM ------
 def welcome():
