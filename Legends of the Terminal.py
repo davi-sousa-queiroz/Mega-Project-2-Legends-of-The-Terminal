@@ -225,7 +225,7 @@ def combat(enemy):
 def find_treasure():
     item = random.choice(items)
     rarity = item_rarity.get(item, "common")
-    inventory[item] +=1
+    inventory[item] = inventory.get(item, 0) + 1
     print("\n✨ You found treasure!")
     print(f'{rarity} item discovered: {item}!! ')
 # ----------- UPGRADES -------------
