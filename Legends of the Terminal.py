@@ -114,7 +114,6 @@ item_prices = {
     'dragon hearts' : 100000,
     'celestial crystals' : 1000000
 }
-
 item_rarity = {
     'toy cars' : 'Common',
     'wooden swords' : 'Common',
