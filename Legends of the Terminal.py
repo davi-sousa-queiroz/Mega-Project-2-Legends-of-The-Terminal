@@ -211,6 +211,9 @@ def combat(enemy):
             print(f"You hit the {enemy['name']}!")
             if enemy_hp<0:
                 print(f"You defeated the {enemy['name']}!")
+                reward = random.randint(5,15)
+                player['Aether']+=reward
+                print(f"You gained {reward} Aether.")
                 return
         elif action == 'run':
             print("You escaped!")
