@@ -186,7 +186,6 @@ def explore():
 
     elif event == 3:
         print('Nothing happened.')
-
 # ------------ COMBAT --------------
 def enemy_encounter():
     enemy = random.choice(enemies)
