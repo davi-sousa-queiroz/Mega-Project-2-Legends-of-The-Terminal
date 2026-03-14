@@ -189,7 +189,9 @@ def explore():
 
 # ------------ COMBAT --------------
 def enemy_encounter():
-    pass
+    enemy = random.choice(enemies)
+    print(f"\nA {enemy['name']}appeared!!")
+    combat(enemy)
 def fight_boss():
     pass
 def combat():
