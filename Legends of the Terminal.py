@@ -192,7 +192,13 @@ def enemy_encounter():
     print(f"\nA {enemy['name']}appeared!!")
     combat(enemy)
 def fight_boss():
-    pass
+    global player
+    boss = random.choice(bosses)
+
+    print(f"\n⚔️ A boss appears: {boss['name']}!")
+    print(f'Prepare yourself {player["name"]}')
+
+    combat(boss)
 def combat(enemy):
     enemy_hp = enemy["HP"]
     while enemy_hp>0 and player['HP']>0:
