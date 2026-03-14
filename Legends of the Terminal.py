@@ -188,7 +188,7 @@ def explore():
 # ------------ COMBAT --------------
 def enemy_encounter():
     enemy = random.choice(enemies)
-    print(f"\nA {enemy['name']}appeared!!")
+    print(f"\nA {enemy['name']} appeared!!")
     combat(enemy)
 def fight_boss():
     global player
@@ -208,7 +208,7 @@ def combat(enemy):
         if action == 'attack':
             enemy_hp-=player['ATK']
             print(f"You hit the {enemy['name']}!")
-            if enemy_hp<0:
+            if enemy_hp<=0:
                 print(f"You defeated the {enemy['name']}!")
                 reward = random.randint(5,15)
                 player['Aether']+=reward
@@ -217,9 +217,14 @@ def combat(enemy):
             player['HP'] -=enemy['ATK']
             print(f"The {enemy['name']} hits you for {enemy['ATK']} damage!")
             time.sleep(1)
+            if player['HP'] <= 0:
+                print('you died.')
         elif action == 'run':
             print("You escaped!")
             return
+        if player['HP']<=0:
+            print('you died.')
+
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
     item = random.choice(items)
@@ -239,7 +244,7 @@ def upgrade_characters():
     if choice == '1':
         player['ATK']+=5
         player["Aether"]-=50
-        print("Attack increased by 50!")
+        print("Attack increased by 5!")
     elif choice == '2':
         player["MAX_HP"] +=10
         player["Aether"]-=50
@@ -259,8 +264,8 @@ def show_inventory():
         if amount > 0:
             print(f"{item} : {amount}")
             empty = False
-        if empty:
-            print("Your inventory is empty.")
+    if empty:
+        print("Your inventory is empty.")
 def heal(amount):
     player['HP'] = min(player['HP'] + amount, player["MAX_HP"])
 # --------- SHOP AND SELL ----------
@@ -270,7 +275,7 @@ def shop():
         print(f'{item} - {price} Aether')
 
     choice = input("\nWhat do you want to buy?  ").lower()
-    if choice in item_prices[choice]:
+    if choice in item_prices:
         price = item_prices[choice]
         if player['Aether']>=price:
             player['Aether']-=price
