@@ -26,13 +26,13 @@ The idea was to simulate a small RPG world completely in the terminal using Pyth
 Run the game with python main.py.
 
 Then use the menu options to:
-	•	Explore the world
-	•	Fight enemies
-	•	Find treasure
-	•	Sell items for Aether
-	•	Upgrade your stats
-	•	Fight bosses
-	•	Manage your inventory
+		•	Explore the world
+		•	Fight enemies
+		•	Find treasure
+		•	Sell items for Aether
+		•	Upgrade your stats
+		•	Fight bosses
+		•	Manage your inventory
 
 The goal is to grow stronger and survive the world.
 
@@ -57,6 +57,18 @@ If I ever return to this project, I would like to add:
 	•	better combat mechanics
 	•	save/load system
 	•	leveling system
+
+## Development Story
+
+I built this project while learning Python and balancing a full school schedule.
+
+Because of school, I usually don't have much time to code during weekdays. Most of the work on this project was done during the weekend, where I could spend longer sessions focused on programming.
+
+In total, this project took about 3 days of real coding time, spread across about a week.
+
+Even though it's a simple terminal RPG, building it helped me practice organizing a larger Python script and managing multiple game systems like combat, inventory, treasure, and upgrades.
+
+The goal of this project was not to make a perfect game, but to practice building something bigger than small beginner exercises and improve my programming skills.
 
 #  Author
 
