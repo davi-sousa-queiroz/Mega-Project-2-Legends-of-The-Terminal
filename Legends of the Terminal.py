@@ -174,7 +174,8 @@ def upgrade_characters():
     pass
 # ------ INVENTORY AND STATS -------
 def show_stats():
-    pass
+    for stat, value in player.items():
+        print(f'{stat}: {value}')
 def show_inventory():
     pass
 def heal(amount):
