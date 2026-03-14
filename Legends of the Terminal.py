@@ -194,8 +194,23 @@ def enemy_encounter():
     combat(enemy)
 def fight_boss():
     pass
-def combat():
-    pass
+def combat(enemy):
+    enemy_hp = enemy["HP"]
+    while enemy_hp>0 and player['HP']>0:
+        print(f"\n{enemy['name']} HP: {enemy_hp}")
+        print(f"{player['name']} HP: {player['HP']}")
+        action = input("Attack or Run?  ").lower()
+
+        if action == 'attack':
+            enemy_hp-=player['ATK']
+            print(f"You hit the {enemy['name']}!")
+            if enemy_hp<0:
+                print(f"You defeated the {enemy['name']}!")
+                return
+        elif action == 'run':
+            print("You escaped!")
+            return
+
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
     pass
