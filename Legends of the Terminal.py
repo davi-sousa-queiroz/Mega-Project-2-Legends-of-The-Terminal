@@ -217,7 +217,11 @@ def combat(enemy):
             return
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
-    pass
+    item = random.choice(items)
+    rarity = item_rarity.get(item, "common")
+    inventory[item] +=1
+    print("\n✨ You found treasure!")
+    print(f'{rarity} item discovered: {item}!! ')
 # ----------- UPGRADES -------------
 def upgrade_characters():
     pass
