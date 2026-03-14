@@ -114,6 +114,22 @@ item_prices = {
     'dragon hearts' : 100000,
     'celestial crystals' : 1000000
 }
+
+item_rarity = {
+    'toy cars' : 'Common',
+    'wooden swords' : 'Common',
+    'fashionable clothes' : 'Common',
+    'chests' : 'Uncommon',
+    'diamonds' : 'Uncommon',
+    'crowns' : 'Uncommon',
+    'golden necklaces' : 'Rare',
+    'royal armour' : 'Rare',
+    'ancient relics' : 'Rare',
+    'dragon eggs' : 'Epic',
+    'phoenix feather' : 'Epic',
+    'dragon hearts' : 'Legendary',
+    'celestial crystals' : 'Legendary',
+}
 # --------------------- F U N C T I O N S ------------------------
 # ---- INTRO AND MENU SYSTEM ------
 def welcome():
