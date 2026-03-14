@@ -173,7 +173,20 @@ def menu():
         print('')
 # ------ EXPLORATION SYSTEM --------
 def explore():
-    pass
+    print("\nYou explore the land...")
+    time.sleep(1)
+
+    event = random.randint(1,3)
+
+    if event == 1:
+        enemy_encounter()
+
+    elif event == 2:
+        find_treasure()
+
+    elif event == 3:
+        print('Nothing happened.')
+
 # ------------ COMBAT --------------
 def enemy_encounter():
     pass
