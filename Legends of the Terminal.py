@@ -209,7 +209,6 @@ def combat(enemy):
         elif action == 'run':
             print("You escaped!")
             return
-
 # --------- TREASURE SYSTEM ----------
 def find_treasure():
     pass
