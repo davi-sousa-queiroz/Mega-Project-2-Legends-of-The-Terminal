@@ -283,7 +283,33 @@ def shop():
     else:
         print('That item is not in the shop!')
 def sell():
-    pass
+
+    available_items = []
+
+    print("\n--- SELL ITEMS ---")
+
+    for item, amount in inventory.items():
+        if amount > 0 and item in item_prices:
+            print(f"{item}: {amount} (Price: {item_prices[item]} Aether)")
+            available_items.append(item)
+
+    if not available_items:
+        print("You have nothing to sell.")
+        return
+
+    item_choice = input("What do you want to sell? ").lower()
+
+    if item_choice in available_items:
+
+        price = item_prices[item_choice]
+
+        inventory[item_choice] -= 1
+        player["Aether"] += price
+
+        print(f"You sold {item_choice} for {price} Aether!")
+
+    else:
+        print("You can't sell that.")
 # ------------ ACTIONS -------------
 def drop_item():
     available_items = []
