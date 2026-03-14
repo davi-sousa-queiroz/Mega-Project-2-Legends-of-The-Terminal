@@ -224,7 +224,23 @@ def find_treasure():
     print(f'{rarity} item discovered: {item}!! ')
 # ----------- UPGRADES -------------
 def upgrade_characters():
-    pass
+    print("\n=== UPGRADE MENU ===")
+    print("1. Increase ATK (+5) - cost: 50 Aether")
+    print("2. Increase MAX HP (+10) - Cost: 50 Aether")
+    choice = input(">  ")
+    if player['Aether']<50:
+        print("You don't have enough Aether.")
+        return
+    if choice == '1':
+        player['ATK']+=5
+        player["Aether"]-=50
+        print("Attack increased by 50!")
+    elif choice == '2':
+        player["MAX_HP"] +=10
+        player["Aether"]-=50
+        print("Max HP increased by 10!")
+    else:
+        print("invalid upgrade.")
 # ------ INVENTORY AND STATS -------
 def show_stats():
     for stat, value in player.items():
