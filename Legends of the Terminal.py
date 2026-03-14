@@ -308,6 +308,5 @@ def main():
                 break
             else:
                 print('That\'s not in the menu adventurer.')
-
 if __name__ == '__main__':
     main()
