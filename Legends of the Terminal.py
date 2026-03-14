@@ -260,7 +260,23 @@ def heal(amount):
     player['HP'] = min(player['HP'] + amount, player["MAX_HP"])
 # --------- SHOP AND SELL ----------
 def shop():
-    pass
+    print('\n=== SHOP ===')
+    for item, price in item_prices.items():
+        print(f'{item} - {price} Aether')
+
+    choice = input("\nWhat do you want to buy?  ").lower()
+    if choice in item_prices[choice]:
+        price = item_prices[choice]
+        if player['Aether']>=price:
+            player['Aether']-=price
+            inventory[choice] += 1
+
+            print(f'You bought {choice}!')
+
+        else:
+            print('Not enough Aether!')
+    else:
+        print('That item is not in the shop!')
 def sell():
     pass
 # ------------ ACTIONS -------------
