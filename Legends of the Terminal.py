@@ -170,7 +170,6 @@ def menu():
     global main_menu
     for option in main_menu:
         print(option)
-        print('')
 # ------ EXPLORATION SYSTEM --------
 def explore():
     print("\nYou explore the land...")
