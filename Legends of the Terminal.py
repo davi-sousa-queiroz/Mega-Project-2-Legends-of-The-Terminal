@@ -298,7 +298,7 @@ def drop_item():
         print('You have nothing to drop adventurer.')
         return
 
-    item_choice = input('What do you want to get rif of? ').lower()
+    item_choice = input('What do you want to get rid of? ').lower()
 
     if item_choice in inventory and inventory[item_choice] > 0:
         inventory[item_choice] -= 1
