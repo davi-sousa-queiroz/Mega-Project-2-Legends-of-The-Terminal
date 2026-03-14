@@ -215,6 +215,8 @@ def combat(enemy):
                 player['Aether']+=reward
                 print(f"You gained {reward} Aether.")
                 return
+            player['HP'] -=enemy['ATK']
+            print(f"The {enemy['name']} hits you for {enemy['ATK']} damage!")
         elif action == 'run':
             print("You escaped!")
             return
