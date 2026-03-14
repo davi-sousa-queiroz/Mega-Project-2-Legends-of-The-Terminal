@@ -122,7 +122,7 @@ item_rarity = {
     'diamonds' : 'Uncommon',
     'crowns' : 'Uncommon',
     'golden necklaces' : 'Rare',
-    'royal armour' : 'Rare',
+    'royal armor' : 'Rare',
     'ancient relics' : 'Rare',
     'dragon eggs' : 'Epic',
     'phoenix feather' : 'Epic',
