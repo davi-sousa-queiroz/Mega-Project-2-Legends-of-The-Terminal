@@ -217,6 +217,7 @@ def combat(enemy):
                 return
             player['HP'] -=enemy['ATK']
             print(f"The {enemy['name']} hits you for {enemy['ATK']} damage!")
+            time.sleep(1)
         elif action == 'run':
             print("You escaped!")
             return
