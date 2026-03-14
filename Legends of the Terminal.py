@@ -192,7 +192,16 @@ def show_stats():
     for stat, value in player.items():
         print(f'{stat}: {value}')
 def show_inventory():
-    pass
+    print("======INVENTORY======")
+
+    empty = True
+
+    for item, amount in inventory.items():
+        if amount > 0:
+            print(f"{item} : {amount}")
+            empty = False
+        if empty:
+            print("Your inventory is empty.")
 def heal(amount):
     player['HP'] = min(player['HP'] + amount, player["MAX_HP"])
 # --------- SHOP AND SELL ----------
